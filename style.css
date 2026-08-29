@@ -28,3 +28,7 @@ footer { padding:38px 20px 33px; background:var(--ink); color:#f5efe2; text-alig
 @media (max-width:360px) { .hero__content{padding-right:21px;padding-left:21px}.marker{width:24px;height:24px;font-size:11px}.hero__crest--dragon{left:0}.hero__crest--tomoe{right:1%} }
 @media (prefers-reduced-motion:reduce) { *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important} }
 .map-button::after { content:"\\2192"; }
+.spot-card { display:flex; flex-direction:column; }
+.spot-content { display:flex; flex:1; flex-direction:column; }
+.map-button { margin-top:auto; }
+.map-button::after { content:none; }
