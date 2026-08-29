@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#182b34">
+  <meta name="robots" content="noindex">
+  <title>神代・勝利公ゆかりの史跡めぐり</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600;700&family=Shippori+Mincho:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__pattern" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="eyebrow">KUMASHIRO HISTORICAL TRIP</p>
+      <h1>神代・勝利公ゆかりの<br>史跡めぐり</h1>
+      <p class="hero__lead">時をたどり、土地に残る物語に出会う。</p>
+      <div class="hero__rule" aria-hidden="true"><span></span></div>
+      <p class="hero__text">福田寺から住吉神社まで。<br>神代勝利公ゆかりの11の史跡を巡る小さな旅へ。</p>
+    </div>
+  </header>
+  <main>
+    <section class="map-area" aria-labelledby="map-title">
+      <div class="section-heading"><p class="section-heading__en">MAP</p><h2 id="map-title">史跡をめぐる</h2><p>番号をタップして、目的地を地図で開けます。</p></div>
+      <div class="map-frame"><div class="map-section">
+        <img src="images/route-map.png" alt="神代・勝利公ゆかりの史跡を巡るルートマップ">
+        <a class="marker marker1" data-spot-id="1">1</a><a class="marker marker2" data-spot-id="2">2</a><a class="marker marker3" data-spot-id="3">3</a><a class="marker marker4" data-spot-id="4">4</a><a class="marker marker5" data-spot-id="5">5</a><a class="marker marker6" data-spot-id="6">6</a><a class="marker marker7" data-spot-id="7">7</a><a class="marker marker8" data-spot-id="8">8</a><a class="marker marker9" data-spot-id="9">9</a><a class="marker marker10" data-spot-id="10">10</a><a class="marker marker11" data-spot-id="11">11</a>
+      </div></div>
+    </section>
+    <section class="spots-area" aria-labelledby="spots-title">
+      <div class="section-heading section-heading--light"><p class="section-heading__en">SPOTS</p><h2 id="spots-title">旅のしおり</h2><p>気になる場所から、あなただけの史跡めぐりを。</p></div>
+      <div id="spot-container" class="spot-list"></div>
+    </section>
+  </main>
+  <footer><span class="footer-mark" aria-hidden="true">神</span><p>神代・勝利公ゆかりの史跡めぐり</p><small>Kumashiro Historical Trip</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
