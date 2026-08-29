@@ -9,21 +9,21 @@
   {
     "id": 2,
     "name": "神代氏芦刈城址",
-    "description": "江戸時代に佐賀鍋島藩神代家が芦刈地域を管轄するために開設した館跡。",
+    "description": "江戸時代に佐賀鍋島藩神代家が芦刈地域を管轄するために開設した館跡",
     "image": "images/ashikari.jpg",
     "mapUrl": "https://maps.app.goo.gl/8xcKxEZerX19gthY7"
   },
   {
     "id": 3,
     "name": "與止日女神社",
-    "description": "川上の合戦の舞台。神代勝利公が本陣を構えた実装院からの景色がとても良い。",
+    "description": "川上の合戦の舞台。神代勝利公が本陣を構えた実装院からの景色がとても良い",
     "image": "images/yodohime.jpg",
     "mapUrl": "https://maps.app.goo.gl/p9cw8HD94hnxeK566"
   },
   {
     "id": 4,
     "name": "神代勝利公墓地",
-    "description": "嘉瀬川ダム建設時に移転された墓所。",
+    "description": "嘉瀬川ダム建設時に移転された墓所",
     "image": "images/grave.jpg",
     "mapUrl": "https://maps.app.goo.gl/rooeXbNL7fQfiGJJA"
   },
