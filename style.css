@@ -6,9 +6,9 @@ body { margin:0; color:var(--ink); background:var(--paper); font-family:"Noto Se
 .hero::after { position:absolute; right:-20vw; bottom:-19vw; width:74vw; height:74vw; border:1px solid rgba(244,232,199,.18); border-radius:50%; content:""; }
 .hero__pattern { position:absolute; inset:0; opacity:.23; background-image:radial-gradient(rgba(239,219,170,.55) .65px,transparent .8px); background-size:8px 8px; }
 .hero__crests { position:absolute; z-index:1; inset:0; pointer-events:none; }
-.hero__crest { position:absolute; top:50%; object-fit:cover; mix-blend-mode:screen; filter:invert(1) contrast(1.2); opacity:.44; transform:translateY(-50%); }
-.hero__crest--dragon { left:3.5%; width:108px; height:108px; border-radius:50%; }
-.hero__crest--tomoe { right:5%; width:86px; height:86px; border-radius:50%; }
+.hero__crest { position:absolute; top:50%; width:clamp(58px, 7vw, 128px); height:clamp(58px, 7vw, 128px); aspect-ratio:1; object-fit:cover; object-position:center; mix-blend-mode:screen; filter:invert(1) contrast(1.2); opacity:.44; border-radius:50%; transform:translateY(-50%); }
+.hero__crest--dragon { left:clamp(10px, 3vw, 46px); }
+.hero__crest--tomoe { right:clamp(12px, 4vw, 52px); width:clamp(46px, 5.8vw, 94px); height:clamp(46px, 5.8vw, 94px); }
 .hero__content { position:relative; z-index:1; max-width:640px; margin:0 auto; padding:65px 28px 55px; }
 .eyebrow,.section-heading__en { margin:0; color:#d9b870; font-family:Arial,sans-serif; font-size:10px; font-weight:700; letter-spacing:.22em; }
 h1,h2,p { margin-top:0; }
@@ -24,7 +24,7 @@ h1 { margin:15px 0 0; font-family:"Shippori Mincho","Noto Serif JP",serif; font-
 .spots-area { padding:49px 18px 64px; background:var(--paper-deep); }.section-heading--light .section-heading__en { color:var(--red); }.spot-list { display:grid; max-width:720px; margin:0 auto; gap:19px; }.spot-card { position:relative; overflow:hidden; background:#fffdf9; box-shadow:0 7px 17px rgba(48,39,25,.11); }.spot-image { display:block; width:100%; height:205px; object-fit:cover; }.spot-content { padding:21px 20px 22px; }.spot-number { color:var(--red); font-family:Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:.14em; }.spot-title { margin:7px 0 11px; font-size:20px; font-weight:600; line-height:1.45; letter-spacing:.05em; }.spot-description { margin:0 0 18px; color:#5e5a53; font-size:13px; line-height:1.9; }.map-button { display:inline-flex; align-items:center; gap:12px; padding:10px 0 8px; border-bottom:1px solid var(--red); color:var(--red); font-family:Arial,"Noto Serif JP",sans-serif; font-size:12px; font-weight:700; letter-spacing:.08em; text-decoration:none; }.map-button::after { content:"→"; font-size:17px; line-height:.8; }.map-button:focus-visible { outline:2px solid var(--red); outline-offset:4px; }
 footer { padding:38px 20px 33px; background:var(--ink); color:#f5efe2; text-align:center; }.footer-mark { display:grid; width:33px; height:33px; margin:0 auto 12px; place-items:center; border:1px solid #c9a761; border-radius:50%; color:#d4b675; font-size:17px; }footer p { margin:0 0 5px; font-size:12px; letter-spacing:.08em; }footer small { color:#bcb8ad; font-family:Arial,sans-serif; font-size:9px; letter-spacing:.14em; }
 @media (min-width:700px) { .hero__content{padding-left:44px}.map-area{padding-top:64px}.spot-list{grid-template-columns:repeat(2,minmax(0,1fr))}.spot-image{height:215px} }
-@media (max-width:480px) { .hero__crest--dragon{left:2%;width:76px;height:76px}.hero__crest--tomoe{right:3%;width:62px;height:62px} }
-@media (max-width:360px) { .hero__content{padding-right:21px;padding-left:21px}.marker{width:24px;height:24px;font-size:11px}.hero__crest--dragon{left:0;width:62px;height:62px}.hero__crest--tomoe{right:1%;width:51px;height:51px} }
+@media (max-width:480px) { .hero__crest { width:clamp(48px, 16vw, 76px); height:clamp(48px, 16vw, 76px); } .hero__crest--dragon{left:2%}.hero__crest--tomoe{right:3%;width:clamp(40px, 13vw, 62px);height:clamp(40px, 13vw, 62px)} }
+@media (max-width:360px) { .hero__content{padding-right:21px;padding-left:21px}.marker{width:24px;height:24px;font-size:11px}.hero__crest--dragon{left:0}.hero__crest--tomoe{right:1%} }
 @media (prefers-reduced-motion:reduce) { *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important} }
 .map-button::after { content:"\\2192"; }
