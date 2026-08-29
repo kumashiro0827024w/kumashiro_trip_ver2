@@ -13,7 +13,7 @@ body { margin:0; color:var(--ink); background:var(--paper); font-family:"Noto Se
 .eyebrow,.section-heading__en { margin:0; color:#d9b870; font-family:Arial,sans-serif; font-size:10px; font-weight:700; letter-spacing:.22em; }
 h1,h2,p { margin-top:0; }
 h1 { margin:15px 0 0; font-family:"Shippori Mincho","Noto Serif JP",serif; font-size:clamp(30px,8.5vw,44px); font-weight:600; line-height:1.43; letter-spacing:.07em; }
-.hero__lead { margin:25px 0 0; font-size:14px; letter-spacing:.1em; }
+.hero__lead { margin:53px 0 0; font-size:14px; letter-spacing:.1em; }
 .hero__rule { display:flex; align-items:center; gap:8px; margin:24px 0 20px; }
 .hero__rule::before,.hero__rule::after { width:26px; height:1px; background:#c5a760; content:""; }.hero__rule span { width:5px; height:5px; transform:rotate(45deg); background:#c5a760; }
 .hero__text { margin:0; color:rgba(255,253,247,.8); font-size:12px; line-height:2; letter-spacing:.07em; }
